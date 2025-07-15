@@ -3,11 +3,12 @@
 Need to Know:
 ------------------
 
+1. [Basics](Basics)
+2. [Constructor](Constructor)
+3. 
 
 Later useful Info:
 ------------------
 
 
-
-`1. [Constructor](Constructor)`
 
