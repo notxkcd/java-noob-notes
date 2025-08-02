@@ -1,5 +1,13 @@
 #  Java Notes for Noobs by a Noob
 
+
+CS INTRO:
+---------
+1. [ChatGPT](ChatGPT)
+2. [Grok](Grok)
+3. DeepSeek
+4. Perplexity
+
 Need to Know:
 ------------------
 

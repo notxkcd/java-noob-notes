@@ -1,15 +1,3 @@
----
-author: Mohammed Shahid
-description: My Noob Java Notes 
-date: 2025-06-02
-output:
-  pdf_document:
-    latex_engine: xelatex
-    includes:
-      in_header: header.tex
-    extra_dependencies: ["fontspec"]
-mainfont: "EB Garamond"
----
 
 A key reason to use Java?
 -------------------------
@@ -29,6 +17,50 @@ A Package is a namespace that organizes a set of related classes, interfaces, an
 Ex: com.example.math.Calculator
 Ex: com.example.finance.Calculator
 
+
+Array:
+------
+An array in Java is a data structure that allows you to store multiple values of the same type in a single, fixed-size collection.
+
+1. Fixed Size
+2. Zero-based Indexing
+3. Type-specific
+4. Access and modify: Elements are accessed and changed using their index.
+5. Declared with square brackets: For example, `int[] numbers = new int[5]`; creates an array of five integers
+
+Examples:
+
+```java
+int[] arr;               // Declaration
+arr = new int[5];        // Allocation (size 5, all values initialized to 0)
+```
+
+Or as a one-liner:
+
+```java
+int[] arr = new int[5];  // Declaration + allocation
+```
+
+Or using literals (when values are known):
+
+```java
+int[] nums = {10, 20, 30, 40}; // Declaration + initialization
+```
+
+Accessing and Modifying Elements
+
+```java
+arr[0] = 100;              // Change first element to 100
+System.out.println(arr[0]); // Access and print first element
+```
+
+Array Length
+
+```java
+int len = arr.length; // The number of elements the array can hold[1][6]
+```
+
+`arr.length` is an instance variable of class Array.
 
 Stack Diagram?
 - A Stack diagram is memory diagram that shows currently running methods.
